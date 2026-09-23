@@ -1,0 +1,25 @@
+JDK(Java Developement Kit): 
+It includes tools and libraries with help of which we can write code in java. Like debugger and compuler of java.
+There is a JRE in JDK.
+JRE(Java RunTime Environment):
+It provides an environment with help of which we can run our java programs. And in JRE there is JVM.
+JVM(Java Virtual Machine):
+Our program run in JVM.
+
+Program Running Flow:
+First we create a file which is usually in src lets say test.java, this is the source file.
+This is converted into Bytecode and this work is done by javac compiler.
+This Bytecode then goes to JVM and JVM convert it into machine code.
+
+Lets understand Bytecode is platform independent we can run it on any operating system. While
+machine code in platform dependent every OS has its own machine code.
+If we want to run a java program on notepad then it will include this step:
+
+First save notepad file using extension .java 
+Second Write program with not syntax error and JDK should be installed and should be set in environment variables.
+Third open cmd in folder where you have saved .java file written in notepad.
+Fourth type in cmd (javac test.java) This javac compiler would convert java code into Bytecode and test.class file would be created which contain the byte code of our java program.
+Fifth type in cmd (java test) program will be executed, why we written only java (1. In installation folder of jdk there are two files javac and java when we
+										  run javac test.java then javac file perform this action. javac in the compiler which run .java file
+										  2. And when we write only (java test) then java file perform this action.
+										     java file is like which perform action of JVM
