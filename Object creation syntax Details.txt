@@ -1,0 +1,22 @@
+To create object in java we use this syntax:
+ClassName objectName= new ClassName([parameters]);
+
+1. Declaration:
+ClassName: Specifies the type of the object you are creating, 
+which is the name of the class serving as the blueprint. In this we  are deciding which blueprint we want to use to create object.
+
+objectName: The name of the reference variable that will point to the newly created object in memory. 
+This will store the memory address of the object we will create.
+
+= operator: It will assign the memory address (which is returned by new operator) of object to objectName
+
+2. Instantiation:
+new keyword: This is the reponsible for creating object in memory.
+This keyword dynamically allocates memory on the heap for the new object and its instance variables. 
+It also returns a reference to that memory location. 
+
+3. Initialization
+ClassName([parameters]): This calls a constructor of the class. 
+A constructor is a special method with the same name as the class and no return type. 
+It sets the initial state (values of fields) for the new object. 
+You can use different constructors by providing different parameters. 
